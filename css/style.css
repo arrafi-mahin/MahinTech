@@ -87,3 +87,6 @@
 
 textarea.form-control {
   height: 132px !important; }
+
+#main-footer .fab {
+  color: white; }
