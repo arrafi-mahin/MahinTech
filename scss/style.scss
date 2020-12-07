@@ -1,0 +1,129 @@
+
+
+
+
+
+
+.navbar {
+    .nav-link {
+        font-size: 14px;
+        text-transform: uppercase;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    
+    .active {
+       border-left: #444 3px solid;
+    }
+    
+}
+
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-image-1 {
+    background: url("../img/image1.jpg");
+    background-size: cover;
+}
+.carousel-image-2 {
+    background: url("../img/image2.jpg");
+    background-size: cover;
+}
+.carousel-image-3 {
+    background: url("../img/image3.jpg");
+    background-size: cover;
+}
+
+#home-heading {
+    position: relative;
+    min-height: 200px;
+    background: url(../img/lights.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+
+
+}
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba($color: #000000, $alpha: 0.7);
+}
+#video-play {
+    position: relative;
+    min-height: 200px;
+    background: url(../img/media.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -300px;
+    text-align: center;
+    color: white;
+
+    .fas {
+        color: white;
+    }
+    
+}
+
+#main-footer {
+    background:  #343A40;
+    color: white;
+}
+
+//About page
+#page-header {
+    height: 200px;
+    background: url('../img/image1.jpg');
+    background-position: 0 -360;
+    background-attachment: fixed;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+#about {
+
+    .about-img {
+        margin-top: -50px;
+    }
+}
+
+#faq {
+    .card {
+        border: #444;
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+    .card-body {
+        background: #333;
+    }
+    .card-header {
+        background: #333;
+    }
+
+}
+
+
+//Blog sec
+
+#blog {
+
+        .card {
+            &:hover{
+                background: #343A40;
+                color: white;
+                transition: 0.5s;
+            }
+        }
+}
+
+textarea.form-control {
+    height: 132px !important;
+}

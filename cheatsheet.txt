@@ -1,0 +1,17 @@
+touch .gitignore
+git config --global user.name Mahin
+git config --global user.email "arrafi.mahin@gmail.com"
+git init
+git add .
+git commit -m "Initial Commit"
+git status #just to see
+ssh-keygen -t ed25519 -C "arrafi.mahin@gmail.com"
+cat <file path> # add this key to github ssh key
+git remote add origin <ssh url.git>
+git push origin master
+
+git status #checking changes of files
+
+//quick update files
+ git add.
+git push origin master
