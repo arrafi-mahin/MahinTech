@@ -21,7 +21,7 @@
   background: url("../img/image3.jpg");
   background-size: cover; }
 
-#home-icon .home-hv:hover {
+#home-icon .home-hv:hover .fas {
   color: #0056B3;
   transition: 0.5s;
   cursor: pointer; }
