@@ -39,9 +39,11 @@
     
     .home-hv {
         &:hover {
-            color:#0056B3;
-            transition: 0.5s;
-            cursor: pointer;
+            .fas {
+                color:#0056B3;
+                transition: 0.5s;
+                cursor: pointer;
+            }
         }
     }
 }
@@ -53,8 +55,6 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: white;
-
-
 }
 .dark-overlay {
     position: absolute;
