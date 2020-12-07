@@ -35,6 +35,17 @@
     background-size: cover;
 }
 
+#home-icon {
+    
+    .home-hv {
+        &:hover {
+            color:#0056B3;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+    }
+}
+
 #home-heading {
     position: relative;
     min-height: 200px;
